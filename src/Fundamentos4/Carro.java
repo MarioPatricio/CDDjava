@@ -8,6 +8,7 @@ public class Carro {
 	public boolean ligado;
 	public boolean acelerado;
 	public int abastecido;
+	
 	public Carro() {
 	}
 	public Carro(String cor, String modelo, double preco) {

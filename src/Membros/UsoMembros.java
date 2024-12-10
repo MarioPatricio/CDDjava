@@ -4,7 +4,7 @@ public class UsoMembros {
 	public static void main(String[] args) {
 		DataNascimento dt = new DataNascimento();
 		DataNascimento dt2 = new DataNascimento();
-		dt.dia=12;
+		dt.dia=12; // Static não permite que o valor altere
 		dt.mes=02;
 		dt.ano=1991;
 		dt2.dia=25;
